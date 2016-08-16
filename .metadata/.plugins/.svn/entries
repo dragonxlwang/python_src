@@ -1,0 +1,73 @@
+10
+
+dir
+2519
+https://subversion.engr.illinois.edu/svn/TIMan/xwang95-self/src/.metadata/.plugins
+https://subversion.engr.illinois.edu/svn/TIMan
+
+
+
+2014-08-06T00:41:50.459747Z
+2275
+xwang95
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+398aa56c-3047-0410-86f6-b800d14ae9a4
+
+org.eclipse.core.resources
+dir
+
+org.eclipse.core.runtime
+dir
+
+org.eclipse.debug.core
+dir
+
+org.eclipse.dltk.core
+dir
+
+org.eclipse.e4.workbench
+dir
+
+org.eclipse.jdt.core
+dir
+
+org.eclipse.jdt.ui
+dir
+
+org.eclipse.mylyn.bugzilla.core
+dir
+
+org.eclipse.mylyn.context.core
+dir
+
+org.eclipse.mylyn.tasks.ui
+dir
+
+org.eclipse.team.cvs.core
+dir
+
+org.eclipse.team.svn.core
+dir
+
+org.eclipse.ui.ide
+dir
+
+org.eclipse.ui.intro
+dir
+
+org.eclipse.ui.workbench
+dir
+

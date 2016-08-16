@@ -1,0 +1,144 @@
+10
+
+dir
+2519
+https://subversion.engr.illinois.edu/svn/TIMan/xwang95-self/src
+https://subversion.engr.illinois.edu/svn/TIMan
+
+
+
+2015-03-17T03:58:24.024124Z
+2519
+xwang95
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+398aa56c-3047-0410-86f6-b800d14ae9a4
+
+
+
+
+
+
+
+
+()
+
+.metadata
+dir
+
+.project
+file
+
+
+
+
+2014-01-13T18:16:53.000000Z
+e63a7d7d263c4685b5ab1223f9da6fb6
+2013-02-13T05:56:56.274041Z
+1450
+xwang95
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+357
+
+.pydevproject
+file
+
+
+
+
+2014-01-13T18:16:54.000000Z
+b7a4f26731d0e0f859c1641b9478832a
+2013-02-13T05:56:56.274041Z
+1450
+xwang95
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+409
+
+.settings
+dir
+
+cit_senti
+dir
+
+corpus
+dir
+
+crowd_thurstonian
+dir
+
+debug
+dir
+
+deep_nlp
+dir
+
+gen_phrase
+dir
+
+label_denoise
+dir
+
+linkedin
+dir
+
+theme_discovery
+dir
+
+toolkit
+dir
+
+topic_modeling
+dir
+

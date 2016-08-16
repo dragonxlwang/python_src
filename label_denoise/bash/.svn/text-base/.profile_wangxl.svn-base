@@ -1,0 +1,10 @@
+#!/bin/sh
+function yellowecho {
+    echo "\033[1;33m${1}\033[0m"
+}
+function redecho {
+    echo "\033[1;31m${1}\033[0m"
+}
+function blueecho {
+    echo "\033[36m${1}\033[0m"
+}

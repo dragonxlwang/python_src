@@ -1,0 +1,60 @@
+##
+# Python logging configuration for Agile FedSci tasks.
+# Copyright (c) 2010 Yahoo! Inc.  All rights reserved.
+#
+# $Id: pylogging.cfg 661 2010-09-03 23:10:34Z lamkhede $
+#
+# Refer to http://docs.python.org/lib/logging-config-fileformat.html
+##
+
+####### TOP LEVEL CONFIG ##########
+
+[loggers]
+keys=root,log02
+
+[handlers]
+keys=hand_stderr
+
+[formatters]
+keys=form01
+
+########### LOGGERS #################
+[logger_root]
+level=NOTSET
+handlers=hand_stderr
+
+# The propagate entry is set to 1 to indicate that messages must propagate to
+# handlers higher up the logger hierarchy from this logger, or 0 to indicate that
+# messages are not propagated to handlers up the hierarchy. The qualname entry
+# is the hierarchical channel name of the logger, that is to say the name used by
+# the application to get the logger.
+
+[logger_log02]
+level=INFO
+handlers=hand_stderr
+propagate=0
+qualname=AgileFedSci
+
+########### HANDLERS ###############
+[handler_hand_stderr]
+class=StreamHandler
+level=INFO
+formatter=form01
+args=(sys.stderr,)
+
+#[handler_hand_file]
+#class=FileHandler
+#level=INFO
+#formatter=form01
+#args=('afs.log', 'w')
+
+#[handler_hand07]
+#class=handlers.SMTPHandler
+#level=ERROR
+#formatter=form01
+#args=(smtp machine, sender, [receivers], subject)
+
+########### FORMATTERS #############
+[formatter_form01]
+format=%(asctime)s %(levelname)-8s %(name)s  %(message)s
+class=logging.Formatter
